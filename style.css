@@ -1,0 +1,9 @@
+.header-photo {
+    width: 1200px;
+    margin: auto;
+    height: 400px;
+}
+
+.header-photo img {
+    max-width: 100%;
+}
