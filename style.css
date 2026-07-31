@@ -10,8 +10,47 @@
 
 .header-photo {
     width: 100%;
+    position: relative;
 }
 
 .header-photo img {
     max-width: 100%;
+}.header-box {
+    width: 100%;
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    display: flex;
+    }
+.main-menu {
+    width: 65%;
+}
+
+.main-menu ul {
+    display: flex;
+    list-style: none;
+}
+  
+
+.main-log img {
+    max-width: 100%;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.main-log {
+    width: 30%;
+}.main-menu ul li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 38px 10px 30px 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+}.main-header {
+    position: absolute;
+    top: 56%;
+    left: 31%;
+    font-size: 80px;
+    color: white;
 }
