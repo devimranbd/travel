@@ -6,6 +6,7 @@
 .header {
     width: 1200px;
     margin: auto;
+    MARGIN-BOTTOM: 60PX;
 }
 
 .header-photo {
@@ -53,4 +54,185 @@
     left: 31%;
     font-size: 80px;
     color: white;
+}.fotter {
+    width: 1200px;
+    margin: auto;
+    background: antiquewhite;
+    height: auto;
+}
+
+.fotter-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-1 {
+    width: 32%;
+}
+
+.box-2 {
+    width: 32%;
+    padding: 55px 0px;
+}
+
+.box-3 {
+    width: 32%;
+    padding: 100px 0px;
+}
+
+.log img {
+    max-width: 100%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}.log {
+    top: 10px;
+    position: relative;
+    left: 10px;
+    padding: 10px 50px;
+}.log p {
+    font-size: 30px;
+    padding: 20px 34px;
+}.box-2 h1 {
+    font-size: 32px;
+    line-height: 388%;
+}
+
+.box-2 h2 {
+    font-size: 23px;
+    line-height: 127%;
+}
+
+.box-2 h3 {
+    font-size: 20px;
+    line-height: 222%;
+}
+
+.box-2 h4 {
+    font-size: 16px;
+}.box-3 h1 a {
+    font-size: 24px;
+    text-decoration: none;
+    line-height: 150%;
+    color: black;
+}
+
+.box-3 h2 a {
+    font-size: 24px;
+    line-height: 150%;
+    text-decoration: none;
+    color: black;
+}
+
+.box-3 h3 a {
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+    line-height: 150%;
+}
+
+.box-3 h4 a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}.border {
+    width: 1200px;
+    margin: auto;
+    background: antiquewhite;
+    margin-top: 100px;
+}
+
+.boreder-box {
+    width: 90%;
+    border-top: 1px solid red;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    padding: 20px 0px;
+}
+
+.boreder-2 {
+    width: 23%;
+    }
+.boreder-1 {
+    width: 31%;
+}.boreder-1 h1 {
+    font-size: 16px;
+}
+
+
+
+.boreder-2 h1 a {
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    display: block;
+}.page ul {
+    list-style: none;
+    display: flex;
+}
+
+.page {
+    display: flex;
+   
+}
+
+.page ul li a {
+   
+    display: block;
+    font-size: 40px;
+  
+}li {}
+
+.page ul li {
+    margin-left: 83px;
+    margin-right: -68px;
+}
+
+.page ul li:last-child {
+    background: red;
+}li {}
+
+.page ul li:first-child {
+    background: blue;
+}.page ul li a:first-child {
+    color: aliceblue;
+}
+
+
+
+.page {
+    margin-top: 37px;}.Attractions {
+    width: 1200px;
+    margin: auto;
+}
+
+.Attractions-box {
+    width: 40%;
+    margin: auto;
+}
+.Attractions-box h1 {
+    font-size: 50px;
+    color: black;
+}.Attractions {
+    width: 1200px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.Attractions-box {
+    width: 59%;
+    margin: auto;
+}
+
+.Attractions-box h1 {
+    font-size: 50px;
+    color: black;
+    padding: 50px 178px;
+}
+
+.Attractions-box h2 {
+    font-size: 17px;
+    padding: 0px 78px;
 }
