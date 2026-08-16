@@ -235,4 +235,51 @@
 .Attractions-box h2 {
     font-size: 17px;
     padding: 0px 78px;
+}.photo-box {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.photo-1 {
+    width: 23%;
+}
+ img  {
+    max-width: 100%;
+}.photo-1 a {
+    font-size: 20px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    display: flex;
+    color: black;
+}
+.our-strength-box {
+    width: 27%;
+    margin: auto;
+}
+
+.our-strength-box h1 {
+    font-size: 51px;
+    color: black;
+}.our-strength {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.our-strength-1 {
+    width: 33%;
+    position: relative;
+}.our-strength-1 h2 a {
+    font-size: 32px;
+    text-decoration: none;
+    position: absolute;
+    top: 244px;
+    left: 14px;
+    width: 80%;
+    color: white;
 }
