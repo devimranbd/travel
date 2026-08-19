@@ -1,8 +1,9 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
 .header {
     width: 1200px;
     margin: auto;
@@ -16,13 +17,17 @@
 
 .header-photo img {
     max-width: 100%;
-}.header-box {
+}
+
+.header-box {
     width: 100%;
     position: absolute;
     top: 2%;
     left: 2%;
     display: flex;
-    }
+    align-items: center;
+}
+
 .main-menu {
     width: 65%;
 }
@@ -31,7 +36,7 @@
     display: flex;
     list-style: none;
 }
-  
+
 
 .main-log img {
     max-width: 100%;
@@ -41,20 +46,27 @@
 
 .main-log {
     width: 30%;
-}.main-menu ul li a {
+}
+
+.main-menu ul li a {
     text-decoration: none;
     color: black;
     display: block;
-    padding: 38px 10px 30px 10px;
+    padding: 6px 10px;
     font-size: 18px;
     text-transform: uppercase;
-}.main-header {
+    transition: 0.5s ease;
+}
+
+.main-header {
     position: absolute;
     top: 56%;
     left: 31%;
     font-size: 80px;
     color: white;
-}.fotter {
+}
+
+.fotter {
     width: 1200px;
     margin: auto;
     background: antiquewhite;
@@ -86,15 +98,21 @@
     width: 200px;
     height: 200px;
     border-radius: 50%;
-}.log {
+}
+
+.log {
     top: 10px;
     position: relative;
     left: 10px;
     padding: 10px 50px;
-}.log p {
+}
+
+.log p {
     font-size: 30px;
     padding: 20px 34px;
-}.box-2 h1 {
+}
+
+.box-2 h1 {
     font-size: 32px;
     line-height: 388%;
 }
@@ -111,7 +129,9 @@
 
 .box-2 h4 {
     font-size: 16px;
-}.box-3 h1 a {
+}
+
+.box-3 h1 a {
     font-size: 24px;
     text-decoration: none;
     line-height: 150%;
@@ -136,7 +156,9 @@
     font-size: 20px;
     text-decoration: none;
     color: black;
-}.border {
+}
+
+.border {
     width: 1200px;
     margin: auto;
     background: antiquewhite;
@@ -154,10 +176,13 @@
 
 .boreder-2 {
     width: 23%;
-    }
+}
+
 .boreder-1 {
     width: 31%;
-}.boreder-1 h1 {
+}
+
+.boreder-1 h1 {
     font-size: 16px;
 }
 
@@ -168,22 +193,26 @@
     text-decoration: none;
     color: black;
     display: block;
-}.page ul {
+}
+
+.page ul {
     list-style: none;
     display: flex;
 }
 
 .page {
     display: flex;
-   
+
 }
 
 .page ul li a {
-   
+
     display: block;
     font-size: 40px;
-  
-}li {}
+
+}
+
+li {}
 
 .page ul li {
     margin-left: 83px;
@@ -192,18 +221,25 @@
 
 .page ul li:last-child {
     background: red;
-}li {}
+}
+
+li {}
 
 .page ul li:first-child {
     background: blue;
-}.page ul li a:first-child {
+}
+
+.page ul li a:first-child {
     color: aliceblue;
 }
 
 
 
 .page {
-    margin-top: 37px;}.Attractions {
+    margin-top: 37px;
+}
+
+.Attractions {
     width: 1200px;
     margin: auto;
 }
@@ -212,10 +248,13 @@
     width: 40%;
     margin: auto;
 }
+
 .Attractions-box h1 {
     font-size: 50px;
     color: black;
-}.Attractions {
+}
+
+.Attractions {
     width: 1200px;
     margin: auto;
     margin-bottom: 20px;
@@ -235,7 +274,9 @@
 .Attractions-box h2 {
     font-size: 17px;
     padding: 0px 78px;
-}.photo-box {
+}
+
+.photo-box {
     width: 1200px;
     margin: auto;
     display: flex;
@@ -246,24 +287,32 @@
 .photo-1 {
     width: 23%;
 }
- img  {
+
+img {
     max-width: 100%;
-}.photo-1 a {
+}
+
+.photo-1 a {
     font-size: 20px;
     text-decoration: none;
     margin-bottom: 20px;
     display: flex;
     color: black;
 }
+
 .our-strength-box {
-    width: 27%;
+    width: 1200px;
     margin: auto;
+    margin-bottom: 30px;
+    text-align: center;
 }
 
 .our-strength-box h1 {
     font-size: 51px;
     color: black;
-}.our-strength {
+}
+
+.our-strength {
     width: 1200px;
     margin: auto;
     display: flex;
@@ -272,9 +321,11 @@
 }
 
 .our-strength-1 {
-    width: 33%;
+    width: 33.3%;
     position: relative;
-}.our-strength-1 h2 a {
+}
+
+.our-strength-1 h2 a {
     font-size: 32px;
     text-decoration: none;
     position: absolute;
@@ -283,6 +334,7 @@
     width: 80%;
     color: white;
 }
+
 .blogs {
     width: 1200px;
     margin: auto;
@@ -296,8 +348,8 @@
     display: block;
     padding: 37px 600px;
 }
- 
- 
+
+
 
 
 .bloge-box-photo {
@@ -311,13 +363,16 @@
     justify-content: space-between;
     margin-bottom: 55px;
 }
+
 .bloge-box-photo h2 a {
     text-decoration: none;
     font-size: 21px;
     padding: 10px 25px;
     display: block;
     color: black;
-}.sundarban-tour {
+}
+
+.sundarban-tour {
     width: 1200px;
     margin: auto;
     display: flex;
@@ -331,7 +386,9 @@
 
 .sundarban-tour-text {
     width: 46%;
-}.sundarban-tour-text h1 {
+}
+
+.sundarban-tour-text h1 {
     font-size: 43px;
     padding: 115px 0px 20px;
     display: block;
@@ -341,7 +398,9 @@
 .sundarban-tour-text h2 {
     font-size: 26px;
     color: black;
-}.gallery {
+}
+
+.gallery {
     width: 1200px;
     margin: auto;
 }
@@ -351,7 +410,9 @@
     font-size: 43px;
     color: black;
     display: block;
-}.gallery-box {
+}
+
+.gallery-box {
     width: 1200px;
     margin: auto;
     display: flex;
@@ -361,4 +422,93 @@
 
 .gallery-box-photo {
     width: 33%;
+}
+
+.main-menu ul li a:hover {
+    color: red;
+    background: yellow;
+}a {}
+
+.main-menu ul li {
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+}a {}
+
+.main-menu ul li {
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+}
+
+.main-menu ul li:first-child {
+    border-left: none;
+}
+
+.main-menu ul li:last-child {
+    border-right: navajowhite;
+}.photo-box-1 {
+    justify-content: space-between;
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photo-box-text {
+    width: 50%;
+}
+
+.photo-box-photo {
+    width: 50%;
+}.photo-box-1 {
+    justify-content: space-between;
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photo-box-text {
+    width: 50%;
+    padding: 55px 20px;
+}
+
+.photo-box-photo {
+    width: 50%;
+}
+
+.photo-box-photo img {
+    max-width: 100%;
+}
+
+.photo-box-text h1 {
+    font-size: 37px;
+    text-align: center;
+    margin-bottom: 54px;
+}.photo-box-text h2 {
+    font-size: 22px;
+    color: black;
+   
+}.Offer-box {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0px;
+    background: azure;
+}
+
+.Offer-box-text {
+    width: 48%;
+    padding: 0px 33px;
+}
+
+.Offer-box-photo {
+    width: 50%;
+}.Offer-box-text h1 {
+    font-size: 40px;
+    color: black;
+    padding: 20px 0px;
+}.Offer-box-text h2 {
+    font-size: 20px;
+    line-height: 160%;
 }
