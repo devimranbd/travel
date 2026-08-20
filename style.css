@@ -427,12 +427,16 @@ img {
 .main-menu ul li a:hover {
     color: red;
     background: yellow;
-}a {}
+}
+
+a {}
 
 .main-menu ul li {
     border-left: 1px solid red;
     border-right: 1px solid red;
-}a {}
+}
+
+a {}
 
 .main-menu ul li {
     border-left: 1px solid red;
@@ -445,7 +449,9 @@ img {
 
 .main-menu ul li:last-child {
     border-right: navajowhite;
-}.photo-box-1 {
+}
+
+.photo-box-1 {
     justify-content: space-between;
     width: 1200px;
     margin: auto;
@@ -459,12 +465,15 @@ img {
 
 .photo-box-photo {
     width: 50%;
-}.photo-box-1 {
+}
+
+.photo-box-1 {
     justify-content: space-between;
     width: 1200px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 39px;
 }
 
 .photo-box-text {
@@ -484,17 +493,23 @@ img {
     font-size: 37px;
     text-align: center;
     margin-bottom: 54px;
-}.photo-box-text h2 {
+}
+
+.photo-box-text h2 {
     font-size: 22px;
     color: black;
-   
-}.Offer-box {
+
+}
+
+.Offer-box {
     width: 1200px;
     margin: auto;
     display: flex;
     justify-content: space-between;
-    padding: 60px 0px;
+    padding: 60px 0px 0px;
     background: azure;
+    height: auto;
+    margin-bottom: 57px;
 }
 
 .Offer-box-text {
@@ -505,19 +520,48 @@ img {
 .Offer-box-photo {
     width: 50%;
 }
+
 .Offer-box-text ul li a {
     text-decoration: none;
     color: black;
     font-size: 23px;
     line-height: 130%;
-}.Offer-box-text h1 {
+}
+
+.Offer-box-text h1 {
     font-size: 37px;
     margin-bottom: 33px;
-}.bangladesh-box {
+}
+
+.bangladesh-box {
     width: 1200px;
     margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 34px;
 }
 
 .bangladesh-box img {
     max-width: 100%;
+}.achievments {
+    width: 1200px;
+    margin: auto;
+    background: aliceblue;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}.achievments {}
+
+.achievments h1 {
+    font-size: 29px;
+    margin-bottom: 20px;
 }
+
+.achievments {}
+
+.achievments ul li a {
+    font-size: 15px;
+    color: black;
+    line-height: 169%;
+    text-decoration: none;
+}
+
