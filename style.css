@@ -504,11 +504,20 @@ img {
 
 .Offer-box-photo {
     width: 50%;
-}.Offer-box-text h1 {
-    font-size: 40px;
+}
+.Offer-box-text ul li a {
+    text-decoration: none;
     color: black;
-    padding: 20px 0px;
-}.Offer-box-text h2 {
-    font-size: 20px;
-    line-height: 160%;
+    font-size: 23px;
+    line-height: 130%;
+}.Offer-box-text h1 {
+    font-size: 37px;
+    margin-bottom: 33px;
+}.bangladesh-box {
+    width: 1200px;
+    margin: auto;
+}
+
+.bangladesh-box img {
+    max-width: 100%;
 }
