@@ -549,14 +549,13 @@ a {}
     background: aliceblue;
     padding: 10px 20px;
     margin-bottom: 20px;
-}.achievments {}
+}
 
 .achievments h1 {
     font-size: 29px;
     margin-bottom: 20px;
 }
 
-.achievments {}
 
 .achievments ul li a {
     font-size: 15px;
@@ -564,4 +563,51 @@ a {}
     line-height: 169%;
     text-decoration: none;
 }
+.attractions {
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 37px;
+}
 
+.attractions h1 {
+    font-size: 50px;
+}
+
+.attractions h2 {
+    font-size: 20px;
+    
+    padding: 15px 234px 0px;
+    color: black;
+}.dhaka {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* display: block; */
+    gap: 6px;
+}
+
+.dhaka-box {
+    width: 33%;
+}
+.bagerhat-box {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 24px;
+}
+
+.bagerhat {
+    width: 32%;
+}
+
+.bagerhat h2 a {
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    padding: 11px 43px;
+    display: block;
+}
