@@ -635,6 +635,7 @@ a {}
     width: 1200px;
     margin: auto;
     background: aliceblue;
+    margin-bottom: 40px;
 }
 
 .heritage-box-photo-1 {
@@ -649,4 +650,95 @@ a {}
 
 .heritage-box-text {
     padding: 28px 23px;
+}.tourist-activity {
+    width: 1200px;
+    margin: auto;
+    background: beige;
+    margin-bottom: 28px;
+    /* height: 448px; */
+    padding-bottom: 24px;
+}
+
+.tourist-activity-text {
+    padding: 30px 24px;
+}
+
+.tourist-activity-photo {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.tourist-img-1 {
+    width: 33%;
+}.tourist-activity-all h1 a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 10px 20px;
+    color: white;
+    display: block;
+}
+
+.tourist-activity-all {
+    /* padding: 17px 31px; */
+    width: 14%;
+    background: green;
+    margin-left: 28px;
+    /* margin-bottom: 20px; */
+}
+
+.tourist-activity-all h1 a:hover {
+  background: conic-gradient(from 45deg, red, orange, yellow, green, teal, blue, purple);
+    color: black;
+}.lifestyle {
+    width: 1200px;
+    margin: auto;
+    background: beige;
+    border-left: 14px;
+    padding-bottom: 25px;
+}
+
+.lifestyle-box-text {
+    width: 95%;
+    margin: auto;
+    /* margin-bottom: 26px; */
+    padding: 27px 0px;
+}
+
+.lifestyle-box-photo {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-bottom: 17px;
+}
+
+
+
+.lifestyle-box-img {
+    width: 33%;
+}.lifestyle-box-all {
+    width: 14%;
+    background: green;
+    /* border-left: 12px; */
+    margin-left: 29px;
+}
+
+.lifestyle-box-all h1 a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-transform: uppercase;
+    font-size: 17px;
+    padding: 10px 10px;
+}
+
+.lifestyle-box-all h1 a:hover {
+    color: black;
+    background: conic-gradient(from 45deg, red, orange, yellow, green, teal, blue, purple);
 }
