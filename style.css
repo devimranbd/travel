@@ -745,12 +745,21 @@ a {}
 .box-img {
     width: 1200px;
     margin: auto;
-    justify-content: space-between;
+    justify-content: flex-start;
     display: flex;
     flex-wrap: wrap;
-    gap: 5px;
+    gap: 20px;
 }
 
 .box-img-1 {
-    width: 33%;
+    width: 32%;
+}.box-img-1 h1 a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 32px;
+    color: black;
+    
+
+    padding: 40px 0px 89px 0px;
+    display: block;
 }
