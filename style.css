@@ -742,3 +742,15 @@ a {}
     color: black;
     background: conic-gradient(from 45deg, red, orange, yellow, green, teal, blue, purple);
 }
+.box-img {
+    width: 1200px;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.box-img-1 {
+    width: 33%;
+}
