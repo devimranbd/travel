@@ -897,4 +897,15 @@ h2 {}
     font-size: 20px;
     color: black;
     line-height: 203%;
+}.forest-box {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 6px;
+}
+
+.forest-photo {
+    width: 33%;
 }
